@@ -15,7 +15,7 @@ When a new project request is received:
 ```
 Create three core documents:
 1. Project Guides/Project_and_Technical.md
-2. Project_and_Technical.md
+2. Project Guides/{$Project_Description}_Analysis_StyleGuide.md
 3. Project Guides/breakdown_and_tracking.md
 ```
 

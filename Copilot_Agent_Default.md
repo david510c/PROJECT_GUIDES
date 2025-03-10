@@ -53,4 +53,50 @@ Details Request: "Details"
 4. Progress is clearly tracked
 5. Context is efficiently managed
 
+## Documentation Update Detection
+
+### Milestone Detection Rules
+1. Check for milestone indicators:
+   - New version numbers in files
+   - Completed phases in breakdown_and_tracking.md
+   - Major feature completion markers
+   - Breaking changes in implementation
+
+2. Monitor documentation triggers:
+   - New extraction methods
+   - Core functionality changes
+   - Data structure modifications
+   - Performance optimizations
+   - Security enhancements
+
+### Update Protocol
+When a milestone or significant change is detected:
+1. Review Project_and_Technical.md milestone tracking
+2. Check breakdown_and_tracking.md milestone status
+3. Compare with CHANGELOG.md entries
+4. Notify user if documentation updates are needed
+
+### Documentation Checklist
+On detecting milestone completion:
+- [ ] Verify version numbers are consistent
+- [ ] Ensure CHANGELOG.md is updated
+- [ ] Update technical documentation
+- [ ] Review configuration examples
+- [ ] Update troubleshooting guides
+- [ ] Verify implementation details
+- [ ] Check for breaking changes
+
+### User Notification Format
+```
+🔔 Major Milestone Detected: [Description]
+Documentation updates required:
+1. [Specific update needed]
+2. [Specific update needed]
+...
+Suggested actions:
+- Update CHANGELOG.md with version [X.Y.Z]
+- Document new [feature/pattern/configuration]
+- Update technical documentation for [component]
+```
+
 Remember: Always validate understanding and maintain session state through the Project Guides/breakdown_and_tracking.md file.

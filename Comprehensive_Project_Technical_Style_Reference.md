@@ -381,6 +381,46 @@ Doc: Updated {documents modified}
    - Merge documentation alongside code
    - Version tags for significant milestones
 
+### 3.3 Manifest-Changelog Integration
+
+**Purpose**: Maintain synchronized version information and commit messages across documentation
+
+1. **Manifest Commit Message Structure**
+   ```json
+   {
+     "version": "x.y.z",
+     "lastCommitMessage": {
+       "summary": "Brief version summary",
+       "changes": [
+         "Key change 1",
+         "Key change 2"
+       ],
+       "type": "major|minor|patch"
+     }
+   }
+   ```
+
+2. **Generation Process**
+   - Extract latest version entry from CHANGELOG.md
+   - Distill key changes from Added/Changed/Fixed sections
+   - Generate concise summary message
+   - Update manifest.json with new version and commit message
+   - Use for automated commit message generation
+
+3. **Update Workflow**
+   ```
+   1. Update CHANGELOG.md with version changes
+   2. Extract commit message content from changelog
+   3. Update manifest version and lastCommitMessage
+   4. Use manifest commit message for version control
+   ```
+
+4. **Synchronization Rules**
+   - One-to-one mapping between changelog entries and manifest versions
+   - Automated updates to prevent divergence
+   - Version numbers must match across all files
+   - Commit messages derive from changelog content
+
 ## 4. Task Management Best Practices
 
 ### 4.1 Task Granularity
