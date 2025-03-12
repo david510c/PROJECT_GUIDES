@@ -10,6 +10,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved knowledge graph visualization
 - Advanced context optimization techniques
 
+## [2.0.1] - 2023-05-17
+
+**Summary**: Improved README organization and added core development principles (YAGNI, SOLID, KISS, DRY)
+
+### Added
+- Core development principles (YAGNI, SOLID, KISS, DRY) to system architecture
+- Detailed implementation guidelines for each principle
+- Project_Agent_Config.md template with development principles integration
+
+### Changed
+- Enhanced system initialization process for README organization
+- Updated root and PROJECT_GUIDES README structure for clearer separation of concerns
+- Improved documentation of README handling during project initialization
+
 ## [2.0.0] - 2025-03-12
 
 **Summary**: Initial release of the version 2.0 Enhanced GPT Collaborative Development System with knowledge graph architecture

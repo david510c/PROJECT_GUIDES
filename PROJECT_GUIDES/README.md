@@ -1,4 +1,7 @@
 # Enhanced GPT Collaborative Development System
+## System Documentation (OS Manual)
+
+This folder contains the core system documentation for the Enhanced GPT Collaborative Development System. Think of this as the "OS manual" for the collaborative development system that powers your project.
 
 ## Overview
 
@@ -6,7 +9,7 @@ This system represents an advanced evolution of the Project_Guides documentation
 
 ## Core Files
 
-This folder contains three essential files that form the core of the Enhanced GPT Collaborative Development System:
+This folder contains essential files that form the core of the Enhanced GPT Collaborative Development System:
 
 1. **Project_Guides_Evolution_Prompt.md**
    - Contains the Document DNA that defines the entire system
@@ -22,6 +25,11 @@ This folder contains three essential files that form the core of the Enhanced GP
    - Demonstrates the practical implementation of the system's techniques
    - Shows how to break down complex functionality into manageable components
    - Provides a template for implementing features that exceed context limitations
+
+4. **Tracking_System_Guide.md**
+   - Documents how to track project progress across sessions
+   - Explains the session continuity mechanisms
+   - Provides guidance on maintaining implementation momentum
 
 ## Key Capabilities
 

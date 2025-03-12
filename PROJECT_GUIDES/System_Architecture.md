@@ -15,6 +15,37 @@ The Enhanced GPT Collaborative Development System is built on four foundational 
 3. **Progressive Implementation**: Complex functionality is systematically broken down and implemented through structured processes
 4. **Continuous Evolution**: The system evolves through regular reflection, pattern recognition, and optimization
 
+### 1.1.1 Core Development Principles
+
+All implementation work guided by this system adheres to the following engineering principles:
+
+1. **YAGNI (You Aren't Gonna Need It)**
+   - Implement only what is necessary for current requirements
+   - Defer functionality until there is a proven need for it
+   - Avoid speculative features and over-engineering
+   - Focus on solving real, immediate problems
+
+2. **SOLID**
+   - **Single Responsibility Principle**: Each component should have one reason to change
+   - **Open/Closed Principle**: Code should be open for extension, closed for modification
+   - **Liskov Substitution Principle**: Subtypes must be substitutable for their base types
+   - **Interface Segregation Principle**: Clients shouldn't depend on methods they don't use
+   - **Dependency Inversion Principle**: Depend on abstractions, not concrete implementations
+
+3. **KISS (Keep It Simple, Stupid)**
+   - Prefer simple solutions over complex ones
+   - Value clarity and readability over cleverness
+   - Minimize moving parts and complexity
+   - Design for maintainability by future developers
+
+4. **DRY (Don't Repeat Yourself)**
+   - Extract repeated logic into reusable components
+   - Maintain a single source of truth for knowledge
+   - Use abstraction to eliminate duplication
+   - Balance DRY against premature abstraction
+
+These principles inform all aspects of the development process, from architecture design to code implementation, and are incorporated into the system's guidance, templates, and evaluation criteria.
+
 ### 1.2 System Capabilities
 
 The system provides the following core capabilities:
@@ -1180,10 +1211,50 @@ The system integrates with version control through:
 When setting up a new project:
 
 1. Create the core directory structure
-2. Initialize base templates for each document type
-3. Configure project-specific agent settings
-4. Set up integration with version control
-5. Create initial project knowledge base
+2. **Organize Documentation Files**:
+   - Ensure system documentation stays within PROJECT_GUIDES folder
+   - Create a new project-specific README.md at repository root
+   - Move any existing root README information to PROJECT_GUIDES/README.md if needed
+3. Initialize base templates for each document type
+4. Configure project-specific agent settings
+5. Set up integration with version control
+
+#### Project Root README Template
+When initializing the system, the repository root README.md will be replaced with a project-specific template:
+
+```markdown
+# [PROJECT_NAME]
+
+## Project Overview
+[Brief description of what this project does and its purpose]
+
+## Technologies Used
+- [Primary technology/framework]
+- [Secondary technology/framework]
+- [Additional dependencies]
+
+## Getting Started
+[Instructions for setting up and running the project]
+
+## Project Structure
+[Brief explanation of main folders and their purpose]
+
+## Development Workflow
+This project utilizes the Enhanced GPT Collaborative Development System for efficient development workflows.
+See the documentation in the PROJECT_GUIDES folder for details on the collaboration system.
+
+## Features
+[List of key features implemented]
+
+## Roadmap
+[Upcoming features and improvements]
+
+## Contributors
+[List of contributors]
+
+## License
+[License information]
+```
 
 ### 7.2 Document Creation Process
 
