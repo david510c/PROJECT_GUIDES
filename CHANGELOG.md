@@ -10,6 +10,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved knowledge graph visualization
 - Advanced context optimization techniques
 
+## [2.0.2] - 2023-05-18
+
+**Summary**: Enhanced changelog management with improved version extraction and branch selection
+
+### Added
+- Support for detecting and using current git branch in version control
+- User preferences for custom branch names
+- Branch selection menu with smart options
+
+### Changed
+- Improved summary extraction from CHANGELOG.md
+- Enhanced error handling and user feedback
+- Streamlined code organization with better comments
+
+### Fixed
+- Version extraction compatibility issues on macOS
+- Summary extraction from entries with empty lines
+
 ## [2.0.1] - 2023-05-17
 
 **Summary**: Improved README organization and added core development principles (YAGNI, SOLID, KISS, DRY)
