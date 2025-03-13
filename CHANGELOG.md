@@ -10,7 +10,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved knowledge graph visualization
 - Advanced context optimization techniques
 
-## [2.0.2] - 2023-05-18
+## [2.1.0] - 2025-03-12
+
+**Summary**: Added Maintenance Mode and implemented Just-in-Time Documentation approach for context optimization
+
+### Added
+- Maintenance Mode prompt in PROJECT_GUIDES/README.md for system maintenance sessions
+- Just-in-Time Documentation approach in System_Architecture.md
+- Minimal Activation Approach section detailing file creation protocols
+- File Structure Virtualization concept for reduced context overhead
+
+### Changed
+- Updated File Structure Blueprint in Project_Guides_Evolution_Prompt.md to reflect minimal activation approach
+- Expanded session types to include Maintenance Mode alongside Initial and Continuation sessions
+- Improved system recognition patterns to detect maintenance mode requests
+- Enhanced context management strategies to prioritize project content over system documentation
+
+### Optimized
+- Reduced initial file creation requirements to just 3 core files
+- Streamlined activation process to preserve context window for actual project work
+- Improved user consent protocol for creating new system files
+
+## [2.0.2] - 2025-03-12
 
 **Summary**: Enhanced changelog management with improved version extraction and branch selection
 
@@ -28,7 +49,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Version extraction compatibility issues on macOS
 - Summary extraction from entries with empty lines
 
-## [2.0.1] - 2023-05-17
+## [2.0.1] - 2023-03-12
 
 **Summary**: Improved README organization and added core development principles (YAGNI, SOLID, KISS, DRY)
 

@@ -1206,6 +1206,44 @@ The system integrates with version control through:
 
 ## 7. Implementation Guidance
 
+### 7.0 Minimal Activation Approach
+
+The system follows a Just-in-Time Documentation approach that minimizes initial file creation:
+
+#### Core Principles:
+- **Start Minimal**: Begin with only essential files needed for system understanding
+- **Create as Needed**: Generate additional files only when required for specific tasks
+- **User Consent**: Always request user permission before creating new files
+- **Context Preservation**: Minimize context usage by deferring document creation
+- **Progressive Implementation**: Build the documentation structure incrementally
+
+#### Required Activation Files:
+Only these files are required for system activation:
+1. `PROJECT_GUIDES/README.md` - Core system documentation/OS manual
+2. `PROJECT_GUIDES/System_Architecture.md` - System structure and principles
+3. `PROJECT_GUIDES/Project_Guides_Evolution_Prompt.md` - DNA blueprint
+
+All other files should be generated only when needed for specific implementation tasks.
+
+#### File Creation Protocol:
+When the system needs a file that doesn't exist:
+1. Explain why the file is necessary for the current task
+2. Request explicit permission from the user to create it
+3. If approved, create a minimal viable version with essential content only
+4. If denied, adapt to work without the file, using inline content in responses
+
+#### File Structure Virtualization:
+- System should maintain awareness of the full potential file structure
+- References to non-existent files should acknowledge their virtual status
+- Knowledge can be provided inline when files don't exist yet
+- Documentation can refer to the potential location of future documents
+
+#### Context Management Strategy:
+- Keep detailed knowledge in GPT's understanding rather than in numerous files
+- Generate role-specific contextual prompts over creating multiple documents
+- Use the minimal activation files as anchors for system knowledge
+- Prioritize project content over system documentation in context window
+
 ### 7.1 System Initialization
 
 When setting up a new project:

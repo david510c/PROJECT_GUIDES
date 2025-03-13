@@ -1,4 +1,7 @@
 # Enhanced GPT Collaborative Development System
+## System Documentation (OS Manual)
+
+This folder contains the core system documentation for the Enhanced GPT Collaborative Development System. Think of this as the "OS manual" for the collaborative development system that powers your project.
 
 ## Overview
 
@@ -6,7 +9,7 @@ This system represents an advanced evolution of the Project_Guides documentation
 
 ## Core Files
 
-This folder contains three essential files that form the core of the Enhanced GPT Collaborative Development System:
+This folder contains essential files that form the core of the Enhanced GPT Collaborative Development System:
 
 1. **Project_Guides_Evolution_Prompt.md**
    - Contains the Document DNA that defines the entire system
@@ -23,6 +26,11 @@ This folder contains three essential files that form the core of the Enhanced GP
    - Shows how to break down complex functionality into manageable components
    - Provides a template for implementing features that exceed context limitations
 
+4. **Tracking_System_Guide.md**
+   - Documents how to track project progress across sessions
+   - Explains the session continuity mechanisms
+   - Provides guidance on maintaining implementation momentum
+
 ## Key Capabilities
 
 - **Knowledge Graph Management**: Information is organized as interconnected concepts rather than isolated documents
@@ -35,10 +43,11 @@ This folder contains three essential files that form the core of the Enhanced GP
 
 ### Session Types
 
-The system recognizes two types of sessions:
+The system recognizes three types of sessions:
 
 1. **Initial Session**: First-time system setup and project initialization
 2. **Continuation Session**: Subsequent sessions where work continues on the project
+3. **Maintenance Mode**: Sessions for maintaining, updating, or improving the system itself
 
 ### Initial Session Prompt
 
@@ -75,12 +84,30 @@ The last session ended with: [BRIEF REMINDER OF LAST STATUS]
 I'd like to focus this session on: [TODAY'S GOAL]
 ```
 
+### Maintenance Mode Prompt
+
+For sessions where you need to maintain, update, or improve the system itself rather than working on a project, use this prompt:
+
+```
+I need to work in maintenance mode for the Enhanced GPT Collaborative Development System.
+
+Please focus only on the files inside the PROJECT_GUIDES folder and ignore project implementation files outside it (except for referencing the root README.md for context if needed).
+
+The system should not be activated or initialized for a new project. Instead, I need you to:
+1. Understand the current system architecture and documentation
+2. Help me maintain, modify, or improve specific aspects of the system
+3. Ensure any changes maintain compatibility with existing projects
+
+I'd like to work on: [SPECIFIC MAINTENANCE TASK]
+```
+
 ### System Recognition Patterns
 
 The system will automatically recognize these patterns to determine session type:
 
 - **Initial Session Recognition**: Phrases like "use the Enhanced GPT Collaborative Development System", "analyze the Document DNA", or "generate the complete system"
 - **Continuation Session Recognition**: Phrases like "resume our Enhanced GPT Collaborative Development System session", "restore context", or "continue from where we left off"
+- **Maintenance Mode Recognition**: Phrases like "work in maintenance mode", "maintain the system", or "focus only on the files inside the PROJECT_GUIDES folder"
 
 ### System Initialization
 

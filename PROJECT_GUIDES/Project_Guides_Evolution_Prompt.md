@@ -73,41 +73,38 @@ Design a system that enables:
 
 ### 1. File Structure Blueprint
 
-Create an enhanced version of the following file structure with improved organization and functionality:
+Create a system with the following file structure principles:
+```
+/
+├── README.md               # Project-specific README (populated during initialization)
+├── CHANGELOG.md            # Project changelog
+├── [Project Files]         # Actual project implementation files
+│
+└── PROJECT_GUIDES/         # OS Folder containing the development system
+    ├── README.md          # System documentation/OS manual (REQUIRED FOR ACTIVATION)
+    ├── System_Architecture.md  # System structure and principles (REQUIRED FOR ACTIVATION)
+    ├── Project_Guides_Evolution_Prompt.md  # DNA blueprint (REQUIRED FOR ACTIVATION)
+    │
+    ├── Knowledge/         # Created only when needed for specific knowledge management
+    │   ├── Project_Knowledge_Base.md
+    │   ├── Technical_Decisions.md
+    │   └── [Other knowledge files as needed]
+    │
+    ├── Agent/            # Created only when needed for agent configuration
+    │   └── [Agent configuration files as needed]
+    │
+    ├── Execution/        # Created only when needed for tracking implementation
+    │   └── [Execution tracking files as needed]
+    │
+    └── Meta/             # Created only when needed for system evolution
+        └── [Meta files as needed]
+```
 
-```
-/PROJECT_GUIDES/
-│
-├── Knowledge/
-│   ├── Project_Knowledge_Base.md
-│   ├── Technical_Decisions.md
-│   ├── Implementation_Patterns.md
-│   ├── Troubleshooting_Guide.md
-│   └── Domain_Specific/
-│       └── [Domain-specific knowledge files]
-│
-├── Agent/
-│   ├── Project_Agent_Config.md
-│   ├── Interaction_Patterns.md
-│   ├── Capability_Registry.md
-│   └── Learning_Record.md
-│
-├── Execution/
-│   ├── Project_Tracking.md
-│   ├── Implementation_Worksheets/
-│   │   └── [Feature-specific worksheets]
-│   ├── Session_Continuity.md
-│   └── Quality_Assurance.md
-│
-├── Public/
-│   ├── README.md
-│   ├── CHANGELOG.md
-│   └── CONTRIBUTING.md
-│
-└── Meta/
-    ├── System_Architecture.md
-    └── Evolution_Record.md
-```
+#### Minimal Activation Approach
+- Only the 3 files marked "REQUIRED FOR ACTIVATION" must exist for system initialization
+- All other files should be created only when needed with explicit user permission
+- The system should function effectively with minimal file creation
+- Knowledge can be provided inline when dedicated files don't exist yet
 
 ### 2. Core Document Templates
 
